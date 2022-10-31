@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AnalyticsController;
+use App\Http\Controllers\FluentController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,5 @@ use App\Http\Controllers\AnalyticsController;
 */
 
 Route::apiResource('analytics', AnalyticsController::class, ['only' => 'index']);
+
+Route::apiResource('fluent', FluentController::class, ['only' => 'index']);

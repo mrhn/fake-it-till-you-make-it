@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Resources\AnalyticsResource;
 use App\Services\AnalyticsService;
+
 class AnalyticsController extends Controller
 {
     /**
